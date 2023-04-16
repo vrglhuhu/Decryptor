@@ -27,5 +27,17 @@ print("")
 print("=" * 80)
 print("")
 # If user wants to continue, ask the user to input an encrypted text.
+if agreement.upper() == "YES":
+    # ask the user to input an encrypted text
+    print("Please encrypt your text using this guide 'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !")
+    print("")
+    text = input("Please enter an encrypted text: ")
+    encrypted_text = ""
+    print("")
+    print("Your encrypted text is: " + text)
+    print("")
+    print("Let us decrypt it.")
+    print("")
+# After inputing the encrypted text, ask user if want to decrypt it.     
 # If user don't want to continue, print thank you.
 # Create a footer.
