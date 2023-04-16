@@ -14,7 +14,7 @@ print("=" * 80)
 print("Hi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.")
 print("")
 # Ask for the name of the user.
-name_of_user = input("How about you what is your name")
+name_of_user = input("How about you what is your name? ")
 print("")
 print("=" * 80)
 print("")
@@ -22,7 +22,7 @@ print("")
 print("Good day,",name_of_user,"this program will ask you to input encrypted text and it will decrypt it by itself.")
 print("")
 # Ask if the user wants to continue.
-agreement = str(input(Do you want to continue answering this program? Type YES if you want to continue and type NO if not."))
+agreement = str(input("Do you want to continue answering this program? Type YES if you want to continue and type NO if not."))
 print("")
 print("=" * 80)
 print("")
@@ -45,7 +45,7 @@ if agreement.upper() == "YES":
            for e in text:
            # if *, change it to a 
             if e == '*':  
-                  encrypted_text += 'a'
+                 encrypted_text += 'a'
            # if &, change it to e
             elif e == '&':
                  encrypted_text += 'e'
@@ -59,6 +59,12 @@ if agreement.upper() == "YES":
             elif e == '!':
                  encrypted_text += 'u'
             else:
-                 encrypted_text += e             
+                 encrypted_text += e 
+# Print output
+    print("")
+    print("DECRYPTED TEXT")
+    print("The decrypted text of your input is:", encrypted_text)
+    print("")
+    print("Goodbye and thank you,",name_of_user,"have a nice day.")            
 # If user don't want to continue, print thank you.
 # Create a footer.
