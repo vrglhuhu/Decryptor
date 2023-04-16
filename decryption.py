@@ -65,6 +65,12 @@ if agreement.upper() == "YES":
     print("DECRYPTED TEXT")
     print("The decrypted text of your input is:", encrypted_text)
     print("")
-    print("Goodbye and thank you,",name_of_user,"have a nice day.")            
-# If user don't want to continue, print thank you.
+    print("Goodbye and thank you,",name_of_user,"have a nice day.")
+# If user don't want to continue, print I hope you are doing well. Thank you for your time.
+elif agreement.upper() == "NO":
+    print("\033[32mI hope you are doing well. Thank you for your time",name_of_user +".\U0001F600\033[0m")
+# If the response of the user is no, print I hope you are doing well. Thank you for your time.
+else:
+    print("\033[32mI hope you are doing well. Thank you for your time",name_of_user + ".\U0001F600\033[0m")   
+
 # Create a footer.
