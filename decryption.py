@@ -38,6 +38,27 @@ if agreement.upper() == "YES":
     print("")
     print("Let us decrypt it.")
     print("")
-# After inputing the encrypted text, ask user if want to decrypt it.     
+# After inputing the encrypted text, ask user if want to decrypt it.
+    agreement2 = str(input("Do you want to decrypt it? YES or NO: "))
+# If user wants to decrypt it, do the calculations.    
+    if agreement2.upper() == "YES":
+           for e in text:
+           # if *, change it to a 
+            if e == '*':  
+                  encrypted_text += 'a'
+           # if &, change it to e
+            elif e == '&':
+                 encrypted_text += 'e'
+           # if #, change it to i
+            elif e == '#':
+                 encrypted_text += 'i'
+           # if +, change it to o
+            elif e == '+':
+                 encrypted_text += 'o'
+           # if !, change it to u
+            elif e == '!':
+                 encrypted_text += 'u'
+            else:
+                 encrypted_text += e             
 # If user don't want to continue, print thank you.
 # Create a footer.
