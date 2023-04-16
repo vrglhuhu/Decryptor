@@ -19,6 +19,8 @@ print("")
 print("=" * 80)
 print("")
 # Make a greeting message for the user.
+print("Good day,",name_of_user,"this program will ask you to input encrypted text and it will decrypt it by itself.")
+print("")
 # Ask if the user wants to continue.
 # If user wants to continue, ask the user to input an encrypted text.
 # If user don't want to continue, print thank you.
