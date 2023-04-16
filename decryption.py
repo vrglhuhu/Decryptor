@@ -3,9 +3,14 @@
 # Questions No. 2
 
 # Create a header.
+import pyfiglet
 print("")
 print("=" * 80)
 print("")
+welcome = pyfiglet.figlet_format("Welcome to my space".center(57, " "), font = "digital" )
+print(welcome)
+print("")
+print("=" * 80)
 print("Hi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.")
 print("")
 # Ask for the name of the user.
