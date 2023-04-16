@@ -22,6 +22,10 @@ print("")
 print("Good day,",name_of_user,"this program will ask you to input encrypted text and it will decrypt it by itself.")
 print("")
 # Ask if the user wants to continue.
+agreement = str(input(Do you want to continue answering this program? Type YES if you want to continue and type NO if not."))
+print("")
+print("=" * 80)
+print("")
 # If user wants to continue, ask the user to input an encrypted text.
 # If user don't want to continue, print thank you.
 # Create a footer.
