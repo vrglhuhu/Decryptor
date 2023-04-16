@@ -6,7 +6,7 @@ _I am Chean Bernard V. Vergel.  I am 18 years old and currently I am a first ye
 
 # _**My Code Decryptor**_
 
-_Let this decryptor to convert your message into plain text!_
+_Let this decryptor to convert your message into plain text!_  	:red_circle: 	:red_circle: 	:red_circle:
 
 # _**Introduction**_
 > Welcome to Decryptor! This program is designed to help you decode encrypted messages. With Decryptor, you can quickly and easily decode any type of encoded message. From simple substitution codes to complex algorithms, Decryptor has the tools you need to break through the encryption and uncover the hidden message. So, get started and explore the world of encryption and decryption with Decryptor!
