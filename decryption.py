@@ -3,6 +3,11 @@
 # Questions No. 2
 
 # Create a header.
+print("")
+print("=" * 80)
+print("")
+print("Hi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.")
+print("")
 # Ask for the name of the user.
 # Make a greeting message for the user.
 # Ask if the user wants to continue.
