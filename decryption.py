@@ -72,5 +72,13 @@ elif agreement.upper() == "NO":
 # If the response of the user is no, print I hope you are doing well. Thank you for your time.
 else:
     print("\033[32mI hope you are doing well. Thank you for your time",name_of_user + ".\U0001F600\033[0m")   
-
 # Create a footer.
+print("")
+print("=" * 80)
+print("")
+goodbye = pyfiglet.figlet_format("Visit me again", font = "puffy" )
+print (goodbye)
+print("")
+print("=" * 80)
+print("")
+print("")
